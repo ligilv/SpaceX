@@ -1,0 +1,25 @@
+.cardWrapper {
+  width: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 350px;
+  background-color: black;
+  padding: 8px;
+  -webkit-box-shadow: 5px 5px 5px #888888;
+          box-shadow: 5px 5px 5px #888888;
+  border-radius: 8px;
+}
+
+.cardWrapper .rocketImg {
+  height: 200px;
+}
+
+.cardWrapper .rocketName {
+  text-align: center;
+}
+
+.modalHeading {
+  color: #73f573;
+  text-align: center;
+}
+/*# sourceMappingURL=Card.css.map */

@@ -1,0 +1,20 @@
+.cardWrapper {
+  width: 250px;
+  box-sizing: border-box;
+  height: 350px;
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+  box-shadow: 5px 5px 5px #888888;
+  border-radius: 8px;
+
+  .rocketImg {
+    height: 200px;
+  }
+  .rocketName {
+    text-align: center;
+  }
+}
+.modalHeading {
+  color: rgb(115, 245, 115);
+  text-align: center;
+}
