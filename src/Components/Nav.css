@@ -1,0 +1,45 @@
+@import url("http://fonts.cdnfonts.com/css/common-pixel");
+
+.navWrapper {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 65px;
+  color: azure;
+  background-color: rgba(252, 252, 252, 0.95);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Common Pixel", sans-serif;
+  font-size: 45px;
+  justify-content: space-between;
+}
+.navTitle {
+  padding-top: 10px;
+  font-family: "Common Pixel", sans-serif;
+  font-size: 50px;
+}
+.btnWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+/* .myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 65px;
+  z-index: -2;
+} */
+.launchBtn {
+  border-radius: 8px;
+  width: 150px;
+  height: 20px;
+  padding: 0;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}

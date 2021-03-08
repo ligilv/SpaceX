@@ -21,7 +21,7 @@ function Card({
   };
   return (
     <div>
-      <div className="cardWrapper">
+      <div className="cardWrapper" onClick={onInfo}>
         <div className="rocketImg">
           <img
             src={
@@ -49,6 +49,7 @@ function Card({
       <ReactModal
         isOpen={modal}
         onRequestClose={onClose}
+        preventScroll={true}
         style={{
           overlay: {
             position: "fixed",
@@ -62,8 +63,7 @@ function Card({
             height: "400px",
             width: "400px",
             position: "absolute",
-            top: "25vh",
-            left: "10%",
+            top: "25%",
             color: "white",
             border: "2px solid white",
             background: "black",
